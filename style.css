@@ -1,0 +1,208 @@
+*{
+    font-family: 'montserrat';
+}
+.logo{
+    font-size: 35px;
+    font-weight: 700;
+    color: #1f1f1f;
+}
+.dot{
+    color: #ffcc00;
+}
+.navbar{
+    padding: 16px;
+}
+.nav li{
+    padding: 10px;
+}
+.nav li a{
+    font-size: 16px;
+    color: #919191;
+    float: right;
+    text-align: left;
+    font-weight: 500;
+}
+.nav li a :active{
+    color: #ffcc00;
+}
+.nav li a:hover{
+    color: #ffcc00;
+}
+.me{
+    padding-top: 100px;
+    width: 200px;
+    display: flex;
+    margin: 0 auto;
+}
+.me:hover{
+      cursor: pointer;
+}
+.me:not(:hover){
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: .99;
+    cursor: pointer;
+}
+.i{
+   margin-top: -25px;
+}
+.name{
+    color: #1f1f1f;
+    font-size: 45px;
+    margin-top: 20px;
+}
+.btn1{  
+    background: #ffcc00;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 59px;
+    display: inline-block;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    font-weight: 500;
+}
+.btn1:hover{
+    background-color: #1f1f1f;
+    transition: .5s all ease;
+}
+section#banner{
+    background-image: url('/images/bgg.jpg');
+    width: 100%;
+    height: 92vh;
+    background-size: cover;
+}
+.me2{
+    width: 320px;
+    display: flex;
+}
+.me2:hover{
+      cursor: pointer;
+}
+.me2:not(:hover){
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    opacity: .99;
+    cursor: pointer;
+}
+.name2{
+    color: #ffcc00;
+    font-size: 55px;
+    font-weight: 800;
+}
+.stroke{
+    color: transparent;
+    -webkit-text-stroke: 0.035em #ffcc00;
+}
+.job{
+    margin-top: 30px;
+    color: #1f1f1f;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sosial-media li {
+    list-style: none;
+    margin: 0 24px 0 0;
+    display: inline-block; 
+}
+.sosial-media li a {
+    height: 24px;
+    width: 24px;
+    float: left;
+    position: relative; 
+}
+.sosial-media li a span {
+    color: #919191;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+.sosial-media li a span:hover {
+    color: #ffcc00;
+}
+.bio-judul{
+    font-weight: 600;
+    color: #1f1f1f;
+}
+.bio{
+    color: #1f1f1f;
+    margin-top: -20px;
+}
+section#profil2{
+    background: #fcfcfc;
+}
+.text{
+    line-height: 32px;
+}
+.foo{
+    margin-top: 50px;
+    font-weight: 700;
+    color: #e4e4e4;
+}
+.fotoexp{
+    margin-left: -52px;
+    display: flex;
+}
+.vertikal{
+    margin-left: 50px;
+    border-left: 0.25px solid #d8d8d8;
+    width: 0px;
+}
+.exp{
+    color: #ffcc00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.date{
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: 500;
+}
+.project{
+    color: #1f1f1f;
+}
+.project:hover{
+    color: #1f1f1f;
+}
+.card-text{
+    color: #1f1f1f;
+    font-weight: 600;
+}
+.fa-pencil-ruler, .fa-code, .fa-pen-nib{
+    color: #ffcc00;
+}
+.btn2{  
+    background: none;
+    border: 1px solid #1f1f1f;
+    border-radius: 30px;
+    padding: 8px 35px;
+    display: inline-block;
+    color: #1f1f1f;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    font-weight: 500;
+}
+.btn2:hover{
+    border: 1px solid #ffcc00;
+    color: #ffcc00;
+}
+.port{
+    color: #ffcc00;
+    font-size: 20px;
+    font-weight: 700;
+}
+.fa-times{
+    margin-left: 40px;
+    color: #1f1f1f;
+    font-size: 22px;
+}
+.fa-times:hover{
+    color: #ffcc00;
+}
